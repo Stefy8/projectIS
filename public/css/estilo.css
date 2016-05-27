@@ -1,0 +1,61 @@
+@font-face{
+  font-family: zwodrei;
+  src:url('../fonts/zwodrei_bold.ttf') format('truetype');
+}
+
+html,body{
+  margin: 0;
+  overflow-x:hidden ;
+}
+header{
+  background: #293b50;
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+}
+header img{
+  width:  50%;
+  height: 50%;
+  padding-top: 3%;
+    margin-left: 20%;
+  text-align: center;
+}
+header h5{
+  color: white;
+  font-family: zwodrei;
+    margin-left: 10%;
+}
+header .nav{
+    background: #293b50;
+    text-decoration: none;
+    color: white;
+    padding-top: 2%;
+}
+header .a{
+    text-decoration: none;
+    color: white;
+}
+header ul li:hover {
+  background: white;
+  color:black;
+}
+header ul li a:hover {
+
+  color:black;
+}
+#contenido{
+  min-height: 470px;
+  padding-top: 5%;
+}
+footer{
+    background: #293b50;
+    height: 5%;
+    text-align: center;
+    padding-top: 1%;
+    color: white;
+}
+
+.drop{
+  position: absolute;
+   z-index: 99
+}
